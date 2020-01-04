@@ -13,16 +13,16 @@
 
                 <h1 class="title montserrat-semibold-text is-size-4">Kashiful Haque</h1>
                 <p class="subtitle source-sans-pro-text is-size-6">Web & Android Development</p>
-                <h3 class="subtitle source-sans-pro-text is-size-8">
-                  <a href="https://github.com/kashifulhaque" target="_blank">GitHub ↗️</a> |
-                  <a href="https://www.linkedin.com/in/kashifulhaque" target="_blank">LinkedIn ↗️</a>
+                <h3 class="subtitle source-sans-pro-text is-size-6">
+                  <a href="https://github.com/kashifulhaque" target="_blank">GitHub ↗</a> |
+                  <a href="https://www.linkedin.com/in/kashifulhaque" target="_blank">LinkedIn ↗</a>
                 </h3>
 
                 <br />
 
                 <table
                   class="table card is-fullwidth has-background-light has-text-black"
-                  style="border-radius: 24px;"
+                  style="border-radius: 4px;"
                 >
                   <tbody>
                     <tr>
@@ -36,7 +36,7 @@
 
                 <table
                   class="table card is-fullwidth has-background-light has-text-black"
-                  style="border-radius: 24px;"
+                  style="border-radius: 4px;"
                 >
                   <tbody>
                     <tr>
@@ -50,7 +50,7 @@
 
                 <table
                   class="table card is-fullwidth has-background-light has-text-black"
-                  style="border-radius: 24px;"
+                  style="border-radius: 4px;"
                 >
                   <tbody>
                     <tr>
@@ -115,8 +115,9 @@
     <br />
     <p>
       Currently in development, built using
-      <a href="https://gridsome.org/" target="_blank">Gridsome</a> & <a href="https://vuejs.org/" target="_blank">Vue</a>. Hosted on <a href="https://firebase.google.com/" target="_blank">Firebase 🔥</a>
+      <a href="https://gridsome.org/" target="_blank">Gridsome</a> & <a href="https://vuejs.org/" target="_blank">Vue</a>. Hosted on <a href="https://firebase.google.com/" target="_blank">Firebase 🔥</a>. <a href="https://github.com/kashifulhaque/my-portfolio-website" target="_blank">Fork me on GitHub, daddy!</a>
     </p>
+    <br><br><br>
   </Layout>
 </template>
 

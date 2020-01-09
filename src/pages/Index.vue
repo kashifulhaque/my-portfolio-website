@@ -107,6 +107,13 @@
                 <a :href="myWork.sarcasticText" target="_blank">SarcasticText ↗</a>
               </strong>. I was learning how to publish own Android libraries to the world.
             </div>
+            <br />
+            <div class="message-body">
+              Prototyped an Android App
+              <strong>
+                <a :href="myWork.sarcasticText" target="_blank">Carry ↗</a>
+              </strong> for a friend of mine.
+            </div>
           </article>
         </div>
       </div>
@@ -115,9 +122,17 @@
     <br />
     <p>
       Currently in development, built using
-      <a href="https://gridsome.org/" target="_blank">Gridsome</a> & <a href="https://vuejs.org/" target="_blank">Vue</a>. Hosted on <a href="https://firebase.google.com/" target="_blank">Firebase 🔥</a>. <a href="https://github.com/kashifulhaque/my-portfolio-website" target="_blank">Fork me on GitHub, daddy!</a>
+      <a href="https://gridsome.org/" target="_blank">Gridsome</a> &
+      <a href="https://vuejs.org/" target="_blank">Vue</a>. Hosted on
+      <a href="https://firebase.google.com/" target="_blank">Firebase 🔥</a>.
+      <a
+        href="https://github.com/kashifulhaque/my-portfolio-website"
+        target="_blank"
+      >Fork me on GitHub, daddy!</a>
     </p>
-    <br><br><br>
+    <br />
+    <br />
+    <br />
   </Layout>
 </template>
 
@@ -138,7 +153,9 @@ export default {
         cg: "http://cottongallery.in",
         mnml_flashlight:
           "https://play.google.com/store/apps/details?id=tkzylabs.mnmlflashlight",
-        sarcasticText: "https://github.com/kashifulhaque/SarcasticText"
+        sarcasticText: "https://github.com/kashifulhaque/SarcasticText",
+        carryPrototypeFigma:
+          "https://www.figma.com/proto/jWfymXOhUM57PZofV6iUxi/Carry?node-id=1%3A2&viewport=-1010%2C-734%2C1.2011477947235107&scaling=scale-down"
       }
     };
   },

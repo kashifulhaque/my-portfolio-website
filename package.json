@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "bulma": "^0.8.0",
+    "express": "^4.17.1",
     "firebase-tools": "^7.11.0",
     "gridsome": "^0.7.0"
   },

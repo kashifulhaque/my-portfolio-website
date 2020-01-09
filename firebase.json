@@ -9,11 +9,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.html"
-      },
-      {
-        "source": "/bigben",
-        "function": "bigben"
+        "function": "app"
       }
     ]
   },

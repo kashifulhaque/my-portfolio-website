@@ -1,13 +1,15 @@
 const functions = require('firebase-functions');
+const express = require('express');
 
-exports.bigben = functions.https.onRequest((req, res) => {
-    const hours = (new Date().getHours() % 12);
-    res.status(200).send(`<!doctype html>
-    <head>
-      <title>Time</title>
-    </head>
-    <body>
-      ${hours}
-    </body>
-  </html>`);
+const app = express();
+
+app.get('/timestamp', (req, res) => {
+  res.send(`${Date.now()}`);
 });
+
+app.get('/timestamp-cached', (req, res) => {
+  res.set('Cache-control', 'public, max-age=300, s-maxage=600');
+  res.send(`${Date.now()}`);
+});
+
+exports.app = functions.https.onRequest(app);

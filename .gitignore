@@ -7,3 +7,4 @@ firebase
 dist
 .env
 .env.*
+.firebaserc

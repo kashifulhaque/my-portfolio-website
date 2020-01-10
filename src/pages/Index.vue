@@ -7,7 +7,7 @@
             <div class="hero-body">
               <div class="container">
                 <figure class="image is-128x128">
-                  <img class="is-rounded" :src="myDetails.myself" />
+                  <img class="is-rounded" :src="myDetails.myself" title="Hey! It's me. Hello" />
                 </figure>
                 <br />
 
@@ -28,7 +28,10 @@
                     <tr>
                       <td>
                         📧
-                        <a href="mailto:haque.kashiful7@gmail.com">haque.kashiful7@gmail.com</a>
+                        <a
+                          href="mailto:haque.kashiful7@gmail.com"
+                          title="Mail me please, I love reading them"
+                        >haque.kashiful7@gmail.com</a>
                       </td>
                     </tr>
                   </tbody>
@@ -42,7 +45,11 @@
                     <tr>
                       <td>
                         🐤
-                        <a href="https://twitter.com/notifkash" target="_blank">@notifkash</a>
+                        <a
+                          href="https://twitter.com/notifkash"
+                          target="_blank"
+                          title="Tweet tweet!"
+                        >@notifkash</a>
                       </td>
                     </tr>
                   </tbody>
@@ -56,14 +63,21 @@
                     <tr>
                       <td>
                         📷
-                        <a href="https://www.instagram.com/notifkash/" target="_blank">@notifkash</a>
+                        <a
+                          href="https://www.instagram.com/notifkash/"
+                          target="_blank"
+                          title="Click click!"
+                        >@notifkash</a>
                       </td>
                     </tr>
                   </tbody>
                 </table>
 
                 <a :href="myDetails.cvURL" target="_blank">
-                  <button class="button is-rounded is-link is-fullwidth">Download Resume (PDF)</button>
+                  <button
+                    class="button is-rounded is-link is-fullwidth"
+                    title="Hire me!"
+                  >Download Resume (PDF)</button>
                 </a>
               </div>
             </div>
@@ -111,7 +125,7 @@
             <div class="message-body">
               Prototyped an Android App
               <strong>
-                <a :href="myWork.sarcasticText" target="_blank">Carry ↗</a>
+                <a :href="myWork.carryPrototypeFigma" target="_blank">Carry ↗</a>
               </strong> for a friend of mine.
             </div>
           </article>
@@ -119,16 +133,86 @@
       </div>
     </div>
 
+    <hr />
+
+    <h2 class="title">
+      Languages.
+    </h2>
+    <div class="languages columns is-centered is-mobile">
+      <div class="column is-2">
+        <figure class="image is-128x128">
+          <a :href="mySkills.java" target="_blank">
+          <g-image class="is-rounded" src="~/assets/langs/java.png" />
+          </a>
+        </figure>
+      </div>
+
+      <div class="column is-2">
+        <figure class="image is-128x128">
+          <a :href="mySkills.javascript" target="_blank">
+          <g-image class="is-rounded" src="~/assets/langs/js.png" />
+          </a>
+        </figure>
+      </div>
+
+      <div class="column is-2">
+        <figure class="image is-128x128">
+          <a :href="mySkills.cpp" target="_blank">
+          <g-image class="is-rounded" src="~/assets/langs/cpp.png" />
+          </a>
+        </figure>
+      </div>
+    </div>
+
+    <hr />
+
+    <h2 class="title">
+      Web.
+    </h2>
+    <div class="languages columns is-centered is-mobile">
+      <div class="column is-2">
+        <figure class="image is-128x128">
+          <a :href="mySkills.html" target="_blank">
+          <g-image class="is-rounded" src="~/assets/web/html.png" />
+          </a>
+        </figure>
+      </div>
+
+      <div class="column is-2">
+        <figure class="image is-128x128">
+          <a :href="mySkills.css" target="_blank">
+          <g-image class="is-rounded" src="~/assets/web/css.png" />
+          </a>
+        </figure>
+      </div>
+
+      <div class="column is-2">
+        <figure class="image is-128x128">
+          <a :href="mySkills.vue" target="_blank">
+          <g-image class="is-rounded" src="~/assets/web/vue.png" />
+          </a>
+        </figure>
+      </div>
+
+      <div class="column is-2">
+        <figure class="image is-128x128">
+          <a :href="mySkills.node" target="_blank">
+          <g-image class="is-rounded" src="~/assets/web/node.png" />
+          </a>
+        </figure>
+      </div>
+    </div>
+
     <br />
     <p>
       Currently in development, built using
       <a href="https://gridsome.org/" target="_blank">Gridsome</a> &
-      <a href="https://vuejs.org/" target="_blank">Vue</a>. Hosted on
+      <a href="https://vuejs.org/" target="_blank">Vue ✌️</a>. Hosted on
       <a href="https://firebase.google.com/" target="_blank">Firebase 🔥</a>.
       <a
         href="https://github.com/kashifulhaque/my-portfolio-website"
         target="_blank"
-      >Fork me on GitHub, daddy!</a>
+      >Fork me on GitHub, daddy! 📜</a>
     </p>
     <br />
     <br />
@@ -156,6 +240,15 @@ export default {
         sarcasticText: "https://github.com/kashifulhaque/SarcasticText",
         carryPrototypeFigma:
           "https://www.figma.com/proto/jWfymXOhUM57PZofV6iUxi/Carry?node-id=1%3A2&viewport=-1010%2C-734%2C1.2011477947235107&scaling=scale-down"
+      },
+      mySkills: {
+        java: "https://en.wikipedia.org/wiki/Java_(programming_language)",
+        javascript: "https://en.wikipedia.org/wiki/JavaScript",
+        cpp: "https://en.wikipedia.org/wiki/C%2B%2B",
+        html: "https://en.wikipedia.org/wiki/HTML",
+        css: "https://en.wikipedia.org/wiki/Cascading_Style_Sheets",
+        vue: "https://en.wikipedia.org/wiki/Vue.js",
+        node: "https://en.wikipedia.org/wiki/Node.js"
       }
     };
   },

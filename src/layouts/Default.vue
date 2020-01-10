@@ -2,11 +2,22 @@
   <div class="layout">
     <header class="header">
       <g-link to="/">
-        <g-image alt="My logo" src="~/assets/namaiwa_dark.png" width="128" />
+        <g-image
+          alt="My logo"
+          src="~/assets/namaiwa_dark.png"
+          width="128"
+          title="ICYMI That's my logo!"
+        />
       </g-link>
-      <nav class="nav">
-        <g-link class="nav__link" to="/login/">Login</g-link>
-      </nav>
+
+      <a href="https://bulma.io" target="_blank" class="is-hidden-mobile">
+        <g-image
+          alt="My logo"
+          src="~/assets/head/bulma.png"
+          width="128"
+          title="ICYMI That's my logo!"
+        />
+      </a>
     </header>
     <slot />
   </div>

@@ -18,15 +18,15 @@
           <br />
 
           <table
-            class="table card is-fullwidth has-background-light has-text-black"
+            class="table card is-fullwidth has-background-dark is-bold"
             style="border-radius: 4px;"
           >
             <tbody>
               <tr>
                 <td>
-                  <a :href="myDetails.myEmail" title="Mail me please, I love reading them">
+                  <a :href="myDetails.myEmail" title="Mail me please, I love reading them" class="has-text-light">
                     📧
-                    haque.kashiful7@gmail.com
+                    haque.kashiful7@gmail.com ↗
                   </a>
                 </td>
               </tr>
@@ -34,15 +34,15 @@
           </table>
 
           <table
-            class="table card is-fullwidth has-background-light has-text-black"
+            class="table card is-fullwidth has-background-dark is-bold"
             style="border-radius: 4px;"
           >
             <tbody>
               <tr>
                 <td>
-                  <a :href="myDetails.myTweets" target="_blank" title="Tweet tweet!">
+                  <a :href="myDetails.myTweets" target="_blank" title="Tweet tweet!" class="has-text-light">
                     🐤
-                    @notifkash
+                    @notifkash ↗
                   </a>
                 </td>
               </tr>
@@ -50,14 +50,14 @@
           </table>
 
           <table
-            class="table card is-fullwidth has-background-light has-text-black"
+            class="table card is-fullwidth has-background-dark is-bold"
             style="border-radius: 4px;"
           >
             <tbody>
               <tr>
                 <td>
                   📷
-                  <a :href="myDetails.myInstagram" target="_blank" title="Click click!">@notifkash</a>
+                  <a :href="myDetails.myInstagram" target="_blank" title="Click click!" class="has-text-light">@notifkash ↗</a>
                 </td>
               </tr>
             </tbody>
@@ -67,7 +67,7 @@
             <button
               class="button is-rounded is-link is-fullwidth"
               title="Hire me!"
-            >My Resume (PDF)</button>
+            >My Resume (PDF) 📥</button>
           </a>
         </div>
       </div>

@@ -2,206 +2,16 @@
   <Layout>
     <div class="container">
       <div class="columns is-desktop">
-        <div class="column is-narrow">
-          <div class="hero box is-light is-bold">
-            <div class="hero-body">
-              <div class="container">
-                <figure class="image is-128x128">
-                  <img class="is-rounded" :src="myDetails.myself" title="Hey! It's me. Hello" />
-                </figure>
-                <br />
+        
+        <MyCard />
+        <Summary />
 
-                <h1 class="title montserrat-semibold-text is-size-4">Kashiful Haque</h1>
-                <p class="subtitle source-sans-pro-text is-size-6">Web & Android Development</p>
-                <h3 class="subtitle source-sans-pro-text is-size-6">
-                  <a href="https://github.com/kashifulhaque" target="_blank">GitHub ↗</a> |
-                  <a href="https://www.linkedin.com/in/kashifulhaque" target="_blank">LinkedIn ↗</a>
-                </h3>
-
-                <br />
-
-                <table
-                  class="table card is-fullwidth has-background-light has-text-black"
-                  style="border-radius: 4px;"
-                >
-                  <tbody>
-                    <tr>
-                      <td>
-                        📧
-                        <a
-                          href="mailto:haque.kashiful7@gmail.com"
-                          title="Mail me please, I love reading them"
-                        >haque.kashiful7@gmail.com</a>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-
-                <table
-                  class="table card is-fullwidth has-background-light has-text-black"
-                  style="border-radius: 4px;"
-                >
-                  <tbody>
-                    <tr>
-                      <td>
-                        🐤
-                        <a
-                          href="https://twitter.com/notifkash"
-                          target="_blank"
-                          title="Tweet tweet!"
-                        >@notifkash</a>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-
-                <table
-                  class="table card is-fullwidth has-background-light has-text-black"
-                  style="border-radius: 4px;"
-                >
-                  <tbody>
-                    <tr>
-                      <td>
-                        📷
-                        <a
-                          href="https://www.instagram.com/notifkash/"
-                          target="_blank"
-                          title="Click click!"
-                        >@notifkash</a>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-
-                <a :href="myDetails.cvURL" target="_blank">
-                  <button
-                    class="button is-rounded is-link is-fullwidth"
-                    title="Hire me!"
-                  >Download Resume (PDF)</button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="column">
-          <article class="message is-dark">
-            <h2 class="montserrat-semibold-text is-size-4">Summary</h2>
-            <br />
-            <div class="message-body">
-              An aspiring prolific full-stack
-              <strong>Web</strong> &
-              <strong>Android</strong> developer.
-            </div>
-            <br />
-            <div class="message-body">
-              Developed an Android app
-              <strong>
-                <a :href="myWork.mealy" target="_blank">Mealy ↗</a>
-              </strong> which reduced manual work by over 80% and errors in meal management at Carmichael Hostel, University of Calcutta.
-            </div>
-            <br />
-            <div class="message-body">
-              Built an E-commerce website
-              <strong>
-                <a :href="myWork.cg" target="_blank">Cotton Gallery ↗</a>
-              </strong> which helped the shop owner to grow beyond the local area.
-            </div>
-            <br />
-            <div class="message-body">
-              Developed an Android app
-              <strong>
-                <a :href="myWork.mnml_flashlight" target="_blank">mnml flashlight. ↗</a>
-              </strong> as a satire. But hey, it works as advertised without invading your privacy! Thank me later.
-            </div>
-            <br />
-            <div class="message-body">
-              Created an Android library
-              <strong>
-                <a :href="myWork.sarcasticText" target="_blank">SarcasticText ↗</a>
-              </strong>. I was learning how to publish own Android libraries to the world.
-            </div>
-            <br />
-            <div class="message-body">
-              Prototyped an Android App
-              <strong>
-                <a :href="myWork.carryPrototypeFigma" target="_blank">Carry ↗</a>
-              </strong> for a friend of mine.
-            </div>
-          </article>
-        </div>
       </div>
     </div>
 
     <hr />
 
-    <h2 class="title">
-      Languages.
-    </h2>
-    <div class="languages columns is-centered is-mobile">
-      <div class="column is-2">
-        <figure class="image is-128x128">
-          <a :href="mySkills.java" target="_blank">
-          <g-image class="is-rounded" src="~/assets/langs/java.png" />
-          </a>
-        </figure>
-      </div>
-
-      <div class="column is-2">
-        <figure class="image is-128x128">
-          <a :href="mySkills.javascript" target="_blank">
-          <g-image class="is-rounded" src="~/assets/langs/js.png" />
-          </a>
-        </figure>
-      </div>
-
-      <div class="column is-2">
-        <figure class="image is-128x128">
-          <a :href="mySkills.cpp" target="_blank">
-          <g-image class="is-rounded" src="~/assets/langs/cpp.png" />
-          </a>
-        </figure>
-      </div>
-    </div>
-
-    <hr />
-
-    <h2 class="title">
-      Web.
-    </h2>
-    <div class="languages columns is-centered is-mobile">
-      <div class="column is-2">
-        <figure class="image is-128x128">
-          <a :href="mySkills.html" target="_blank">
-          <g-image class="is-rounded" src="~/assets/web/html.png" />
-          </a>
-        </figure>
-      </div>
-
-      <div class="column is-2">
-        <figure class="image is-128x128">
-          <a :href="mySkills.css" target="_blank">
-          <g-image class="is-rounded" src="~/assets/web/css.png" />
-          </a>
-        </figure>
-      </div>
-
-      <div class="column is-2">
-        <figure class="image is-128x128">
-          <a :href="mySkills.vue" target="_blank">
-          <g-image class="is-rounded" src="~/assets/web/vue.png" />
-          </a>
-        </figure>
-      </div>
-
-      <div class="column is-2">
-        <figure class="image is-128x128">
-          <a :href="mySkills.node" target="_blank">
-          <g-image class="is-rounded" src="~/assets/web/node.png" />
-          </a>
-        </figure>
-      </div>
-    </div>
+    <MySkills />
 
     <br />
     <p>
@@ -221,40 +31,24 @@
 </template>
 
 <script>
+import MyCard from '../components/MyCard.vue';
+import Summary from '../components/Summary.vue';
+import MySkills from '../components/MySkills.vue';
+
 export default {
+  components: {
+    MyCard,
+    Summary,
+    MySkills
+  },
   data() {
     return {
-      isDarkTheme: false,
-      myDetails: {
-        githubURL: "https://github.com/kashifulhaque",
-        cvURL:
-          "https://firebasestorage.googleapis.com/v0/b/kashif-resume.appspot.com/o/resume%2Fcv.pdf?alt=media&token=9da2eae4-ffd5-4fcd-8e03-706f49d3852c",
-        myself:
-          "https://firebasestorage.googleapis.com/v0/b/kashif-resume.appspot.com/o/photos%2Findex%2Fmyself_square.jpg?alt=media&token=9357361c-1a65-4560-87aa-6a582b3cc19b"
-      },
-      myWork: {
-        mealy: "http://bit.ly/tkzymealy",
-        cg: "http://cottongallery.in",
-        mnml_flashlight:
-          "https://play.google.com/store/apps/details?id=tkzylabs.mnmlflashlight",
-        sarcasticText: "https://github.com/kashifulhaque/SarcasticText",
-        carryPrototypeFigma:
-          "https://www.figma.com/proto/jWfymXOhUM57PZofV6iUxi/Carry?node-id=1%3A2&viewport=-1010%2C-734%2C1.2011477947235107&scaling=scale-down"
-      },
-      mySkills: {
-        java: "https://en.wikipedia.org/wiki/Java_(programming_language)",
-        javascript: "https://en.wikipedia.org/wiki/JavaScript",
-        cpp: "https://en.wikipedia.org/wiki/C%2B%2B",
-        html: "https://en.wikipedia.org/wiki/HTML",
-        css: "https://en.wikipedia.org/wiki/Cascading_Style_Sheets",
-        vue: "https://en.wikipedia.org/wiki/Vue.js",
-        node: "https://en.wikipedia.org/wiki/Node.js"
-      }
+      isDarkTheme: false
     };
   },
   methods: {},
   metaInfo: {
-    title: "Portfolio"
+    title: "Kashiful Haque | Portfolio"
   }
 };
 </script>
@@ -275,5 +69,9 @@ export default {
 
 .source-sans-pro-text {
   font-family: "Source Sans Pro", sans-serif;
+}
+
+.josefin-sans-text {
+  font-family: "Josefin Sans", sans-serif;
 }
 </style>

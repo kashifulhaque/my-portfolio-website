@@ -4,6 +4,7 @@
 import DefaultLayout from '~/layouts/Default.vue'
 import '../node_modules/bulma/css/bulma.css';
 import './assets/style.css';
+import '../node_modules/bulma-tooltip';
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component

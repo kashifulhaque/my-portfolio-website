@@ -1,5 +1,6 @@
-# Portfolio
+# Kashiful Haque | Portfolio
 
+Built using [Gridsome](https://gridsome.org/) & [Vue.js](https://vuejs.org/)
 How-to run it locally!
 
 ### 1. Install Gridsome CLI tool if you don't have

@@ -15,13 +15,13 @@
     <div class="columns is-desktop">
 
       <p class="column">
-        Hosted on<a href="https://firebase.google.com/" target="_blank">: Firebase 🔥</a>.
+        Hosted on<a href="https://firebase.google.com/" target="_blank" rel="noreferrer">: Firebase 🔥</a>.
       </p>
 
       <span class="column is-narrow">
         <a
           href="https://github.com/kashifulhaque/my-portfolio-website"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >Fork me on GitHub, daddy! 📜</a>
       </span>
 

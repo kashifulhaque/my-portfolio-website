@@ -15,7 +15,7 @@
         <div class="message-body">
           {{ myWork.upperText }}
           <strong>
-            <a :href="myWork.link" target="_blank" class="is-size-5 has-text-link">{{ myWork.linkTitle }}</a>
+            <a :href="myWork.link" target="_blank" class="is-size-5 has-text-link" rel="noreferrer">{{ myWork.linkTitle }}</a>
           </strong>
           {{ myWork.lowerText }}
         </div>

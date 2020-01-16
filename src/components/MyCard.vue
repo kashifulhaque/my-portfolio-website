@@ -4,15 +4,15 @@
       <div class="hero-body">
         <div class="container">
           <figure class="image is-128x128">
-            <img class="is-rounded" :src="myDetails.myself" title="Hey! It's me. Hello" />
+            <img class="is-rounded" :src="myDetails.myself" title="Hey! It's me. Hello" alt="Picture of Kashiful Haque" />
           </figure>
           <br />
 
           <h1 class="title josefin-sans-text is-uppercase has-text-black is-size-4">{{ myDetails.myName }}</h1>
           <p class="subtitle source-sans-pro-text is-size-6">{{ myDetails.whatIDo }}</p>
           <h3 class="subtitle source-sans-pro-text is-size-6">
-            <a :href="myDetails.githubURL" target="_blank">GitHub ↗</a> |
-            <a :href="myDetails.linkedInURL" target="_blank">LinkedIn ↗</a>
+            <a :href="myDetails.githubURL" target="_blank" rel="noreferrer">GitHub ↗</a> |
+            <a :href="myDetails.linkedInURL" target="_blank" rel="noreferrer">LinkedIn ↗</a>
           </h3>
 
           <br />
@@ -24,7 +24,7 @@
             <tbody>
               <tr>
                 <td>
-                  <a :href="myDetails.myEmail" title="Mail me please, I love reading them" class="has-text-light">
+                  <a :href="myDetails.myEmail" title="Mail me please, I love reading them" class="has-text-light" rel="noreferrer">
                     📧
                     haque.kashiful7@gmail.com ↗
                   </a>
@@ -40,7 +40,7 @@
             <tbody>
               <tr>
                 <td>
-                  <a :href="myDetails.myTweets" target="_blank" title="Tweet tweet!" class="has-text-light">
+                  <a :href="myDetails.myTweets" target="_blank" title="Tweet tweet!" class="has-text-light" rel="noreferrer">
                     🐤
                     @notifkash ↗
                   </a>
@@ -57,13 +57,13 @@
               <tr>
                 <td>
                   📷
-                  <a :href="myDetails.myInstagram" target="_blank" title="Click click!" class="has-text-light">@notifkash ↗</a>
+                  <a :href="myDetails.myInstagram" target="_blank" title="Click click!" class="has-text-light" rel="noreferrer">@notifkash ↗</a>
                 </td>
               </tr>
             </tbody>
           </table>
 
-          <a :href="myDetails.cvURL" target="_blank">
+          <a :href="myDetails.cvURL" target="_blank" rel="noreferrer">
             <button
               class="button is-rounded is-link is-fullwidth"
               title="Hire me!"

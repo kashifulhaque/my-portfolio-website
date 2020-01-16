@@ -10,12 +10,12 @@
         />
       </g-link>
 
-      <a href="https://bulma.io" target="_blank" class="is-hidden-mobile">
+      <a href="https://bulma.io" target="_blank">
         <g-image
-          alt="My logo"
+          alt="Bulma logo"
           src="~/assets/head/bulma.png"
           width="128"
-          title="ICYMI That's my logo!"
+          title="Built using Gridsome and Vue.js too!"
         />
       </a>
     </header>

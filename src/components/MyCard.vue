@@ -90,7 +90,7 @@ export default {
         cvURL:
           "https://firebasestorage.googleapis.com/v0/b/kashif-resume.appspot.com/o/resume%2Fcv.pdf?alt=media&token=9da2eae4-ffd5-4fcd-8e03-706f49d3852c",
         myself:
-          "https://firebasestorage.googleapis.com/v0/b/kashif-resume.appspot.com/o/photos%2Findex%2Fmyself_square.jpg?alt=media&token=9357361c-1a65-4560-87aa-6a582b3cc19b"
+          "https://firebasestorage.googleapis.com/v0/b/kashif-resume.appspot.com/o/photos%2Findex%2Fmyself_square.jpg?alt=media&token=0f17ed4e-6a8a-46b7-8a3f-2e7baedfdaba"
       }
     };
   }

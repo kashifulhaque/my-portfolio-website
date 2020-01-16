@@ -1,5 +1,5 @@
 {
   "projects": {
-    "prod": "kashif-resume"
+    "default": "kashif-resume"
   }
 }

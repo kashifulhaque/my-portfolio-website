@@ -52,7 +52,7 @@ export default {
   },
   methods: {},
   metaInfo: {
-    title: "Kashiful Haque | Portfolio"
+    title: "Kashiful Haque • Portfolio"
   }
 };
 </script>

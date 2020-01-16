@@ -1,6 +1,6 @@
 <template>
   <div class="column is-narrow">
-    <div class="hero box is-light is-bold">
+    <div class="hero box is-dark is-bold">
       <div class="hero-body">
         <div class="container">
           <figure class="image is-128x128">
@@ -8,7 +8,7 @@
           </figure>
           <br />
 
-          <h1 class="title josefin-sans-text is-uppercase has-text-black is-size-4">{{ myDetails.myName }}</h1>
+          <h1 class="title josefin-sans-text is-uppercase has-text-light is-size-4">{{ myDetails.myName }}</h1>
           <p class="subtitle source-sans-pro-text is-size-6">{{ myDetails.whatIDo }}</p>
           <h3 class="subtitle source-sans-pro-text is-size-6">
             <a :href="myDetails.githubURL" target="_blank" rel="noreferrer">GitHub ↗</a> |
@@ -18,13 +18,13 @@
           <br />
 
           <table
-            class="table card is-fullwidth has-background-dark is-bold"
+            class="table card is-fullwidth has-background-grey is-bold"
             style="border-radius: 4px;"
           >
             <tbody>
               <tr>
                 <td>
-                  <a :href="myDetails.myEmail" title="Mail me please, I love reading them" class="has-text-light" rel="noreferrer">
+                  <a :href="myDetails.myEmail" title="Mail me please, I love reading them" class="has-text-white-bis" rel="noreferrer">
                     📧
                     haque.kashiful7@gmail.com ↗
                   </a>
@@ -34,13 +34,13 @@
           </table>
 
           <table
-            class="table card is-fullwidth has-background-dark is-bold"
+            class="table card is-fullwidth has-background-grey is-bold"
             style="border-radius: 4px;"
           >
             <tbody>
               <tr>
                 <td>
-                  <a :href="myDetails.myTweets" target="_blank" title="Tweet tweet!" class="has-text-light" rel="noreferrer">
+                  <a :href="myDetails.myTweets" target="_blank" title="Tweet tweet!" class="has-text-white-bis" rel="noreferrer">
                     🐤
                     @notifkash ↗
                   </a>
@@ -50,14 +50,14 @@
           </table>
 
           <table
-            class="table card is-fullwidth has-background-dark is-bold"
+            class="table card is-fullwidth has-background-grey is-bold"
             style="border-radius: 4px;"
           >
             <tbody>
               <tr>
                 <td>
                   📷
-                  <a :href="myDetails.myInstagram" target="_blank" title="Click click!" class="has-text-light" rel="noreferrer">@notifkash ↗</a>
+                  <a :href="myDetails.myInstagram" target="_blank" title="Click click!" class="has-text-white-bis" rel="noreferrer">@notifkash ↗</a>
                 </td>
               </tr>
             </tbody>

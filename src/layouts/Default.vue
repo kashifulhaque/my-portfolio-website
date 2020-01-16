@@ -10,7 +10,7 @@
         />
       </g-link>
 
-      <a href="https://bulma.io" target="_blank">
+      <a href="https://bulma.io" target="_blank" rel="noreferrer">
         <g-image
           alt="Bulma logo"
           src="~/assets/head/bulma.png"

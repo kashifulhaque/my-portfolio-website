@@ -1,10 +1,10 @@
 <template>
   <div class="skills">
-    <h2 class="title">Languages 🌐</h2>
+    <h2 class="title is-size-4">Languages 🌐</h2>
     <div class="languages columns is-centered is-mobile">
       
       <div class="column is-2">
-        <figure class="image is-128x128" data-tooltip="Java">
+        <figure class="image is-128" data-tooltip="Java">
           <a :href="mySkills.java" target="_blank" rel="noreferrer">
             <g-image class="is-rounded" src="~/assets/langs/java.png" alt="Java" />
           </a>
@@ -12,7 +12,7 @@
       </div>
 
       <div class="column is-2">
-        <figure class="image is-128x128" data-tooltip="JavaScript">
+        <figure class="image is-128" data-tooltip="JavaScript">
           <a :href="mySkills.javascript" target="_blank" rel="noreferrer">
             <g-image class="is-rounded" src="~/assets/langs/js.png" alt="JavaScript" />
           </a>
@@ -20,7 +20,7 @@
       </div>
 
       <div class="column is-2">
-        <figure class="image is-128x128" data-tooltip="C++">
+        <figure class="image is-128" data-tooltip="C++">
           <a :href="mySkills.cpp" target="_blank" rel="noreferrer">
             <g-image class="is-rounded" src="~/assets/langs/cpp.png" alt="C++" />
           </a>
@@ -28,7 +28,7 @@
       </div>
 
       <div class="column is-2">
-        <figure class="image is-128x128" data-tooltip="HTML">
+        <figure class="image is-128" data-tooltip="HTML">
           <a :href="mySkills.html" target="_blank" rel="noreferrer">
             <g-image class="is-rounded" src="~/assets/web/html.png" alt="HTML" />
           </a>
@@ -36,7 +36,7 @@
       </div>
 
       <div class="column is-2">
-        <figure class="image is-128x128" data-tooltip="CSS">
+        <figure class="image is-128" data-tooltip="CSS">
           <a :href="mySkills.css" target="_blank" rel="noreferrer">
             <g-image class="is-rounded" src="~/assets/web/css.png" alt="CSS" />
           </a>
@@ -47,10 +47,10 @@
 
     <hr />
 
-    <h2 class="title">Technologies 🌠</h2>
+    <h2 class="title is-size-4">Technologies 🌠</h2>
     <div class="languages columns is-centered is-mobile">
       <div class="column is-2">
-        <figure class="image is-128x128" data-tooltip="Firebase">
+        <figure class="image is-128" data-tooltip="Firebase">
           <a :href="mySkills.firebase" target="_blank" rel="noreferrer">
             <g-image class="is-rounded" src="~/assets/web/firebase.png" alt="Firebase" />
           </a>
@@ -58,7 +58,7 @@
       </div>
 
       <div class="column is-2">
-        <figure class="image is-128x128" data-tooltip="Node.js">
+        <figure class="image is-128" data-tooltip="Node.js">
           <a :href="mySkills.node" target="_blank" rel="noreferrer">
             <g-image class="is-rounded" src="~/assets/web/node.png" alt="Node.js" />
           </a>
@@ -66,7 +66,7 @@
       </div>
 
       <div class="column is-2">
-        <figure class="image is-128x128" data-tooltip="DigitalOcean">
+        <figure class="image is-128" data-tooltip="DigitalOcean">
           <a :href="mySkills.do" target="_blank" rel="noreferrer">
             <g-image class="is-rounded" src="~/assets/web/digital-ocean.png" alt="DigitalOcean" />
           </a>
@@ -74,7 +74,7 @@
       </div>
 
       <div class="column is-2">
-        <figure class="image is-128x128" data-tooltip="WordPress">
+        <figure class="image is-128" data-tooltip="WordPress">
           <a :href="mySkills.wp" target="_blank" rel="noreferrer">
             <g-image class="is-rounded" src="~/assets/web/wordpress.png" alt="WordPress" />
           </a>
@@ -82,7 +82,7 @@
       </div>
 
       <div class="column is-2">
-        <figure class="image is-128x128" data-tooltip="GitHub">
+        <figure class="image is-128" data-tooltip="GitHub">
           <a :href="mySkills.github" target="_blank" rel="noreferrer">
             <g-image class="is-rounded" src="~/assets/web/github.png" alt="GitHub" />
           </a>
@@ -92,12 +92,12 @@
 
     <hr />
 
-    <h2 class="title">Libraries & Frameworks 📚</h2>
+    <h2 class="title is-size-4">Libraries & Frameworks 📚</h2>
     <br />
-    <h3 class="subtitle">Web 🌐</h3>
+    <p class="subtitle is-size-5 is-centered p-text-centre">Web 🌐</p>
     <div class="languages columns is-centered is-mobile">
       <div class="column is-2">
-        <figure class="image is-128x128" data-tooltip="Vue.js">
+        <figure class="image is-128" data-tooltip="Vue.js">
           <a :href="mySkills.vue" target="_blank" rel="noreferrer">
             <g-image class="is-rounded" src="~/assets/web/vue.png" alt="Vue.js" />
           </a>
@@ -129,5 +129,8 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.p-text-centre {
+  text-align: center !important;
+}
 </style>

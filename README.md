@@ -9,10 +9,6 @@ How-to run it locally!
 
 ### 2. Move to the directory and follow the steps
 
-1. `cd insert-site-name` to open the folder
-2. `gridsome develop` to start a local dev server at `http://localhost:8080`
-3. Happy coding 🎉🙌
-
 1. `cd my-portfolio-website` to open the folder
 2. `gridsome develop` to start a local dev server at `http://localhost:8080`.
 3. Happy coding 🎉🙌

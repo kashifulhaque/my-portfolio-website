@@ -18,13 +18,13 @@
           <br />
 
           <table
-            class="table card is-fullwidth has-background-grey is-bold"
+            class="table card is-fullwidth has-background-light is-bold"
             style="border-radius: 4px;"
           >
             <tbody>
               <tr>
                 <td>
-                  <a :href="myDetails.myEmail" title="Mail me please, I love reading them" class="has-text-white-bis" rel="noreferrer">
+                  <a :href="myDetails.myEmail" title="Mail me please, I love reading them" class="has-text-dark" rel="noreferrer">
                     📧
                     haque.kashiful7@gmail.com ↗
                   </a>
@@ -34,13 +34,13 @@
           </table>
 
           <table
-            class="table card is-fullwidth has-background-grey is-bold"
+            class="table card is-fullwidth has-background-light is-bold"
             style="border-radius: 4px;"
           >
             <tbody>
               <tr>
                 <td>
-                  <a :href="myDetails.myTweets" target="_blank" title="Tweet tweet!" class="has-text-white-bis" rel="noreferrer">
+                  <a :href="myDetails.myTweets" target="_blank" title="Tweet tweet!" class="has-text-dark" rel="noreferrer">
                     🐤
                     @notifkash ↗
                   </a>
@@ -50,14 +50,14 @@
           </table>
 
           <table
-            class="table card is-fullwidth has-background-grey is-bold"
+            class="table card is-fullwidth has-background-light is-bold"
             style="border-radius: 4px;"
           >
             <tbody>
               <tr>
                 <td>
                   📷
-                  <a :href="myDetails.myInstagram" target="_blank" title="Click click!" class="has-text-white-bis" rel="noreferrer">@notifkash ↗</a>
+                  <a :href="myDetails.myInstagram" target="_blank" title="Click click!" class="has-text-dark" rel="noreferrer">@notifkash ↗</a>
                 </td>
               </tr>
             </tbody>

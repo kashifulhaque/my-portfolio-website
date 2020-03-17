@@ -2,7 +2,6 @@
   <div class="skills">
     <h2 class="title is-size-4">Languages 🌐</h2>
     <div class="languages columns is-centered is-mobile">
-      
       <div class="column is-2">
         <figure class="image is-128" data-tooltip="Java">
           <a :href="mySkills.java" target="_blank" rel="noreferrer">
@@ -15,6 +14,14 @@
         <figure class="image is-128" data-tooltip="JavaScript">
           <a :href="mySkills.javascript" target="_blank" rel="noreferrer">
             <g-image class="is-rounded" src="~/assets/langs/js.png" alt="JavaScript" />
+          </a>
+        </figure>
+      </div>
+
+      <div class="column is-2">
+        <figure class="image is-128" data-tooltip="Kotlin">
+          <a :href="mySkills.kotlin" target="_blank" rel="noreferrer">
+            <g-image class="is-rounded" src="~/assets/langs/kotlin.png" alt="Kotlin" />
           </a>
         </figure>
       </div>
@@ -42,7 +49,6 @@
           </a>
         </figure>
       </div>
-
     </div>
 
     <hr />
@@ -115,6 +121,7 @@ export default {
         java: "https://en.wikipedia.org/wiki/Java_(programming_language)",
         javascript: "https://en.wikipedia.org/wiki/JavaScript",
         cpp: "https://en.wikipedia.org/wiki/C%2B%2B",
+        kotlin: "https://kotlinlang.org/",
         html: "https://en.wikipedia.org/wiki/HTML",
         css: "https://en.wikipedia.org/wiki/Cascading_Style_Sheets",
         vue: "https://vuejs.org/",

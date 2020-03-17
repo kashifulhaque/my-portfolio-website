@@ -15,13 +15,17 @@
         <div class="message-body">
           {{ myWork.upperText }}
           <strong>
-            <a :href="myWork.link" target="_blank" class="is-size-5 has-text-link" rel="noreferrer">{{ myWork.linkTitle }}</a>
+            <a
+              :href="myWork.link"
+              target="_blank"
+              class="is-size-5 has-text-link"
+              rel="noreferrer"
+            >{{ myWork.linkTitle }}</a>
           </strong>
           {{ myWork.lowerText }}
         </div>
         <br />
       </div>
-
     </article>
   </div>
 </template>
@@ -47,7 +51,8 @@ export default {
         },
         {
           upperText: "Developed an Android app",
-          link: "https://play.google.com/store/apps/details?id=tkzylabs.mnmlflashlight",
+          link:
+            "https://play.google.com/store/apps/details?id=tkzylabs.mnmlflashlight",
           linkTitle: "mnml flashlight. ↗",
           lowerText:
             "as a satire. But hey, it works as advertised without invading your privacy! Thank me later."
@@ -61,10 +66,10 @@ export default {
         },
         {
           upperText: "Prototyped an Android App",
-          link: "https://www.figma.com/proto/jWfymXOhUM57PZofV6iUxi/Carry?node-id=1%3A2&viewport=-1010%2C-734%2C1.2011477947235107&scaling=scale-down",
+          link:
+            "https://www.figma.com/proto/jWfymXOhUM57PZofV6iUxi/Carry?node-id=1%3A2&viewport=-1010%2C-734%2C1.2011477947235107&scaling=scale-down",
           linkTitle: "Carry ↗",
-          lowerText:
-            "for a friend of mine."
+          lowerText: "for a friend of mine."
         }
       ]
     };
@@ -73,7 +78,10 @@ export default {
 </script>
 
 <style scoped>
-a:hover, a:visited, a:link, a:active {
+a:hover,
+a:visited,
+a:link,
+a:active {
   text-decoration: none !important;
 }
 </style>

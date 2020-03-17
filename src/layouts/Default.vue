@@ -9,15 +9,6 @@
           title="ICYMI That's my logo!"
         />
       </g-link>
-
-      <a href="https://bulma.io" target="_blank" rel="noreferrer">
-        <g-image
-          alt="Bulma logo"
-          src="~/assets/head/bulma.png"
-          width="128"
-          title="Built using Gridsome and Vue.js too!"
-        />
-      </a>
     </header>
     <slot />
   </div>

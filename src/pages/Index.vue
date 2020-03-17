@@ -13,24 +13,23 @@
 
     <br />
     <div class="columns is-desktop">
-
       <p class="column">
-        Hosted on<a href="https://firebase.google.com/" target="_blank" rel="noreferrer">: Firebase 🔥</a>.
+        Rank: 273143 on HackerRank (Mar. 06, 2020)
       </p>
 
       <span class="column is-narrow">
         <a
           href="https://github.com/kashifulhaque/my-portfolio-website"
-          target="_blank" rel="noreferrer"
-        >Fork me on GitHub, daddy! 📜</a>
+          target="_blank"
+          rel="noreferrer"
+          >Fork me on GitHub 📜</a
+        >
       </span>
-
     </div>
 
     <br />
     <br />
     <br />
-
   </Layout>
 </template>
 

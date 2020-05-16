@@ -1,5 +1,7 @@
 # Kashiful Haque | Portfolio
 
+## I am currently re-writing my portfolio website from scratch, this repo will NOT be maintained.
+
 Built using [Gridsome](https://gridsome.org/), [Vue.js](https://vuejs.org/) & 🤎
 How-to run it locally!
 
